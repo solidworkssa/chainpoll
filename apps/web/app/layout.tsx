@@ -5,8 +5,8 @@ import './globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'ChainPoll - Anonymous Polling',
-  description: 'Create and vote on polls on Base and Stacks',
+  title: 'ChainPoll',
+  description: 'On-chain polling and surveys',
 }
 
 export default function RootLayout({
