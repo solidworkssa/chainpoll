@@ -2,8 +2,11 @@
 pragma solidity ^0.8.20;
 
 /// @title ChainPoll Contract
+/// @author solidworkssa
 /// @notice On-chain polling and surveys.
 contract ChainPoll {
+    string public constant VERSION = "1.0.0";
+
 
     struct Poll {
         string question;
